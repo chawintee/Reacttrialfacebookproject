@@ -1,0 +1,22 @@
+import React, { Component } from 'react'
+import Navbar from './Navbar'
+import LeftBody from './LeftBody'
+import RightBody from './RightBody'
+import Footer from './Footer'
+import '../style/Login_page/logInPage.css'
+
+export default class logInPage extends Component {
+    render() {
+        return (
+            <div className="fullBody">
+                <Navbar />
+                <div className="mainBody">  
+                <LeftBody />
+                <RightBody />
+                </div>
+
+                <Footer />
+            </div>
+        )
+    }
+}

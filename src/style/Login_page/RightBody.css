@@ -1,0 +1,50 @@
+.RightBody {
+    width: 400px;
+}
+
+.RightBody .rowInRight:nth-child(1){
+    font-size: 38px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #333333;
+}
+
+.RightBody .rowInRight:nth-child(2){
+    font-size: 21px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.RightBody .rowInRight:nth-child(3) input{
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 37px;
+    width: 399px;
+    margin-bottom: 10px;
+}
+
+.RightBody .rowInRight:nth-child(3) input::placeholder{
+    font-size: 20px;
+    padding: 8px 10px;
+}
+
+.RightBody .rowInRight:nth-child(3) .firstInput input {
+    width: 194px;
+}
+
+
+.RightBody .rowInRight:nth-child(3) .firstInput input:nth-child(1) {
+    width: 194px;
+    margin-right: 8px;
+}
+
+
+.RightBody .rowInRight:nth-child(3) .subRowInRight {
+    color: #90949c;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: block;
+}
