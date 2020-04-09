@@ -1,0 +1,25 @@
+.NavbarHome {
+    width: 1012px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 42px;
+}
+
+.NavbarHome .Search {
+    width: 608.912px;
+    height: 42px;
+    border-bottom: 1px solid #29487d;
+
+}
+
+._19eb {
+    margin: 7px 5px 7px -2px;
+}
+
+.NavbarHome .Search ._4kny {
+    margin-left: 0;
+    min-width: 144px;
+    width: 100%;
+    
+}
